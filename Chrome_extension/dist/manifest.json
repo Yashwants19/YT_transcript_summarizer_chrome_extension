@@ -1,0 +1,7 @@
+{ "manifest_version": 2, 
+  "name": "Youtube Video Analyzer", 
+  "version": "0.1.0", 
+  "permissions": ["<all_urls>","tabs"], 
+  "browser_action": 
+   { "default_popup": "index.html" } 
+}

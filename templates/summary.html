@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="{{ url_for('static',filename='styles.css') }}"> -->
+    <link rel="stylesheet" href='../static/styles.css'>
+    <title>Youtube Transcript Summarizer</title>
+</head>
+<body>
+    <div class="kuchh_bhi">
+        <h1>Summary of Transcript</h1>
+        <p class="sum">{{ summary }}</p>
+        <h2>Some Graphs about this content creator-:</h2>
+        <div class="images">
+            <img src="../static/topliked.png" alt="Top liked videos of this creator.">
+            <img src="../static/topviewed.png" alt="Top viewed videos of this creator.">
+            <img src="../static/topcommented.png" alt="Top commented videos of this creator.">
+            <img src="../static/toplikeratio.png" alt="Least ratio of view vs liked videos of this creator.">
+            <img src="../static/topcommentratio.png" alt="Least view vs commented videos of this creator.">
+        </div>
+    </div>
+</body>
+</html>
