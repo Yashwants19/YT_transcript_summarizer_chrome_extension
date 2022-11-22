@@ -18,13 +18,9 @@ const searchForCountry = async () => {
             errors.textContent = "";
             var api = `http://127.0.0.1:5000/api/summarize?youtube_url=${url}`;
             try {
-                // console.log("hi api is:", api)
-                // const response = await axios.get(`${api}`);
-                // links.textContent = response.data.data
-
+                
                 var win = window.open(api);
-                // win.onload = function () { win.RunCallbackFunction = myFunc; };
-                // links.textContent=`http://127.0.0.1:5000/api/summarize?youtube_url=${url}`
+                
             } catch (error) {
                 errors.textContent = "Error occured";
             }
